@@ -33,7 +33,7 @@ header nav ul {
 
 header nav ul li a {
     text-decoration: none;
-    color: white;
+    color: black;
     font-size: 2vw;
     padding: 10px;
 }
@@ -43,3 +43,36 @@ header nav ul li a:hover {
     color: var(--secondary-color);
     border-radius: 30px;
 }
+
+.hero {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: flex-start;
+}
+
+.hero-cta {
+    width: 35%;
+    text-align: right;
+    margin: 3.5%;
+    color: black;
+    font-size: 25px;
+    line-height: 1.2;
+    margin-top: 10%;
+}
+
+.hero-cta h2 {
+    font-style: italic;
+    font-size: 55px;
+    color: black;
+}
+
+.headshot {
+    width: 40%;
+    margin: 3.5%;
+}
+
+.headshot img {
+    max-width: 100%;
+}
+
