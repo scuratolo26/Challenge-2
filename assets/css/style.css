@@ -76,3 +76,43 @@ header nav ul li a:hover {
     max-width: 100%;
 }
 
+/* .about-sam {
+    padding: 10px;
+    border: 2px solid black;
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+} */
+
+.section-title {
+    font-size: 40px;
+    margin-bottom: 35px;
+    padding: 0 100px 20px 100px;
+    display: inline-block;
+    border-bottom: 3px solid;
+    padding-bottom: 20px;
+    text-align: center;
+    margin: 0 auto 35px auto;
+    width: 50%;
+}
+
+.flex-row {
+    display: flex;
+}
+
+.intro {
+    margin-left: auto;
+    margin-right: auto;
+    padding: 15px;
+    border: 2px solid black; 
+    width: 85%;
+}
+
+.intro p {
+    line-height: 1.7;
+    width: 80%;
+    font-size: 20px;
+    margin: 0 auto;
+    text-align: center;
+}
