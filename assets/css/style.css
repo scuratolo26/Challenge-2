@@ -1,6 +1,6 @@
 :root {
-    --primary-color: #F5E1Fd;
-    --secondary-color: #966DA8;
+    --primary-color: #F6F6F6;
+    --secondary-color: #DFDDDD;
 }
 
 * {
@@ -34,13 +34,13 @@ header nav ul {
 header nav ul li a {
     text-decoration: none;
     color: black;
-    font-size: 2vw;
+    font-size: 25px;
     padding: 10px;
 }
 
 header nav ul li a:hover {
     background: var(--primary-color);
-    color: var(--secondary-color);
+    color: #B4B4B4;
     border-radius: 30px;
 }
 
@@ -74,6 +74,7 @@ header nav ul li a:hover {
 
 .headshot img {
     max-width: 100%;
+    border-radius: 100px;
 }
 
 .section-title {
@@ -81,7 +82,7 @@ header nav ul li a:hover {
     margin-bottom: 35px;
     padding: 0 100px 20px 100px;
     display: inline-block;
-    border-bottom: 3px solid;
+    font-style: italic;
     padding-bottom: 20px;
     text-align: center;
     margin: 0 auto 35px auto;
@@ -192,4 +193,93 @@ footer {
 
 .contact-info ul li a {
     color: black;
+}
+
+/* MEDIA QUERY FOR SMALLER DESKTOP SCREENS AND SMALLER */
+@media screen and (max-width: 980px) {
+
+}
+
+/* MEDIA QUERY FOR TABLETS AND SMALLER */
+@media screen and (max-width: 768px) {
+    header nav ul li a {
+        font-size: 20px;
+    }
+    
+    .hero-cta h2 {
+        font-size: 40px;
+    }
+
+    .hero-cta p {
+        font-size: 18px;
+    }
+
+    .section-title {
+        display: flex;
+        justify-content: center;
+        padding: 10px;
+    }
+    
+    .contact-text h2 {
+        font-size: 30px;
+    }
+
+    .contact-info ul li{
+        font-size: 20px;
+    }
+}
+
+/* MEDIA QUERY FOR MOBILE PHONES AND SMALLER */
+@media screen and (max-width: 575px) {
+    .hero-cta {
+        width: 100%;
+        text-align: center;
+    }
+
+    .hero-cta p {
+        font-size: 15px;
+    }
+
+    .intro {
+        padding: 20px;
+
+    }
+
+    .section-title {
+        font-size: 30px;
+    }
+
+    .intro p {
+        font-size: 15px;
+    }
+
+    .work-card h3 {
+        font-size: 15px;
+        font-weight: lighter;
+    }
+
+    .contact-text {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .contact-pic img {
+        display: none;
+    }
+
+    .contact-text h2 {
+        font-size: 30px;
+        display: fkex;
+        width: 100%;
+        border-bottom: none;
+        justify-content: center;
+    }
+
+    .contact-info {
+        display: flex;
+        width: 100%;
+        justify-content: center;
+    }
 }
