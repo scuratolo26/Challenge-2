@@ -116,3 +116,33 @@ header nav ul li a:hover {
     margin: 0 auto;
     text-align: center;
 }
+
+.work{
+    padding: 30px;
+}
+
+.work-cards {
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.work-card-main {
+    margin: 20px;
+    flex-grow: 2;
+}
+
+.work-card-main img {
+    max-width: 100%;
+}
+
+.work-card {
+    margin: 20px;
+    flex: 1 40%;
+}
+
+.work-card img {
+    max-width: 100%;
+}
