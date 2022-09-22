@@ -1,4 +1,4 @@
-## Challenge 2
+## Portfolio
 
 In this challenge we were tasked with building online portfolios without any starter code. These portfolios had to meet several requirements including, our name and icon or photo displayed, functional navigation that will scroll to the selected section, a work section with links to deployed applications and a responsive layout that can be resized. 
 
