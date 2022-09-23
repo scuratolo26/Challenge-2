@@ -132,6 +132,10 @@ header nav ul li a:hover {
     border-radius: 30px;
 }
 
+.work-card-main img:hover {
+    border: 4px solid #969696;
+}
+
 .work-card {
     margin: 20px;
     flex: 1 40%;
@@ -141,6 +145,10 @@ header nav ul li a:hover {
     max-width: 100%;
     border: 3px solid black;
     border-radius: 30px;
+}
+
+.work-card img:hover {
+    border: 3px solid #969696;
 }
 
 .work div article h3 {
@@ -157,6 +165,11 @@ footer {
     justify-content: center;
     flex-wrap: wrap;
     align-items: flex-start;
+    border: 2px solid black;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 50px;
+    width: 85%;
 }
 
 .contact-text {
@@ -183,6 +196,7 @@ footer {
 
 .contact-pic img {
     max-width: 100%;
+    padding-top: 40px;
 }
 
 .contact-info ul {
@@ -197,7 +211,11 @@ footer {
 
 /* MEDIA QUERY FOR SMALLER DESKTOP SCREENS AND SMALLER */
 @media screen and (max-width: 980px) {
-
+    .section-title {
+        display: flex;
+        justify-content: center;
+        padding: 10px;
+    }
 }
 
 /* MEDIA QUERY FOR TABLETS AND SMALLER */
@@ -236,6 +254,10 @@ footer {
         text-align: center;
     }
 
+    .hero-cta h2 {
+        font-size: 30px;
+    }
+
     .hero-cta p {
         font-size: 15px;
     }
@@ -263,6 +285,7 @@ footer {
         display: flex;
         justify-content: center;
         text-align: center;
+        flex-wrap: wrap;
     }
 
     .contact-pic img {
@@ -273,7 +296,6 @@ footer {
         font-size: 30px;
         display: fkex;
         width: 100%;
-        border-bottom: none;
         justify-content: center;
     }
 
